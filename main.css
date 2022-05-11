@@ -28,7 +28,8 @@ a:hover {
     color: #555;
 }
 
-/* Header */
+/* --------------Header (start) */
+
 .navbar-light .navbar-nav .nav-link {
     color: #111;
     font-weight: 500;
@@ -57,4 +58,22 @@ transform: scale(0);
 .modal-body img {
     max-width: 100px;
 }
-/* Header */
+
+/* -------------Header (end) */
+
+/* -------------Carousel (start) */
+
+.my-carousel {
+    padding: 0;
+}
+
+.my-carousel .carousel-item {
+    display: flex;
+    max-height: 500px;
+}
+
+.my-carousel .carousel-item img {
+    object-fit: cover;
+}
+
+/* --------------Carousel (end) */
